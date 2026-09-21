@@ -1,15 +1,60 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+/bin/
+/gen/
+/out/
+/build/
+/.gradle/
+.gradle/
+build/
+app/build/
+
+# Major IDEs build artifacts / files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/appInsightsSettings.xml
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.iws
+*.ipr
+
+# Kotlin
+.kotlin/
+
+# Local configuration file (SDK path, API keys, secrets)
 local.properties
+*.properties
+!gradle.properties
+
+# Log files
+*.log
+
+# Android Profiler / Captures
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystores & Secrets
+*.jks
+*.keystore
+secrets.xml
+
+# OS specific
+.DS_Store
+Thumbs.db
